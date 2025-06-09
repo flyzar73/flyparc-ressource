@@ -1,0 +1,19 @@
+{
+	"model": {
+		"type": "select",
+		"property": "custom_model_data",
+		"fallback": {
+			"type": "model",
+			"model": "item/diamond_sword"
+		},
+		"cases": [
+			{
+				"when": "pirate_log",
+				"model": {
+					"type": "model",
+					"model": "item/pirate_log"
+				}
+			}
+		]
+	}
+}
