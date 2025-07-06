@@ -13,6 +13,13 @@
 					"type": "model",
 					"model": "item/pirate_log"
 				}
+			},
+			{
+				"when": "horror_cart",
+				"model": {
+					"type": "model",
+					"model": "item/horror_cart"
+				}
 			}
 		]
 	}
