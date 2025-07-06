@@ -1,12 +1,13 @@
 {
+	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/oak_log",
-		"1": "block/oak_log_top",
-		"2": "block/black_concrete",
-		"3": "block/black_terracotta",
-		"5": "block/iron_trapdoor",
-		"particle": "block/oak_log"
+		"0": "block/stone/oak_log",
+		"1": "block/stone/oak_log_top",
+		"2": "block/stone/black_concrete",
+		"3": "block/stone/black_terracotta",
+		"5": "block/stone/iron_trapdoor",
+		"particle": "block/stone/oak_log"
 	},
 	"elements": [
 		{
@@ -160,7 +161,7 @@
 				"north": {"uv": [0, 0, 1, 1], "texture": "#missing"},
 				"east": {"uv": [0, 0, 1, 16], "rotation": 90, "texture": "#0"},
 				"south": {"uv": [0, 0, 1, 1], "texture": "#missing"},
-				"west": {"uv": [0, 0, -1, 16], "rotation": 90, "texture": "#0"},
+				"west": {"uv": [1, 0, 0, 16], "rotation": 90, "texture": "#0"},
 				"up": {"uv": [0, 0, 1, 16], "texture": "#0"},
 				"down": {"uv": [0, 0, 1, 16], "texture": "#0"}
 			}
